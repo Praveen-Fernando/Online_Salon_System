@@ -1,0 +1,160 @@
+
+
+p{ 
+    text-align:center;
+    font-size:40px;
+   }
+ 
+h3{
+    font-size:5px;
+  }
+
+body {
+
+   background-image:url("../img/background.jpg");
+   opacity:50;
+   height:140px;
+   background-size:cover;
+   background=position:center;
+   margin: 0;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 800;
+   text-align:center;
+   padding-top: 23px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+    opacity: 10;
+    filter: (opacity=0.5);
+  background: #3A3736;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#sign-out{
+	float: right;	
+	padding-top: 38px;
+    padding-right: 40px;
+    color: #1C1A19;
+}
+
+#profile{
+	float: right;
+	width: 67px;
+	padding-bottom: 5px;
+    margin-top: -39px;
+    margin-right: -71px;
+}
+.side-bar{
+      float: left;
+      border-right-style: solid;
+      margin-top: -11px;
+      position: absolute;
+      bottom: -95px;
+      top: 197px;
+}
+.side-bar ul{
+    list-style-type: none;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.side-bar li a{
+  text-decoration: none;
+  color: white;
+}
+#categories{
+      text-align: center;
+      border-style: solid;
+      border-width: 2px;
+      text-decoration-style: none;
+}
+
+
+.bridal{
+  font-size: 40px;
+  margin-top: 18px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: -5px;
+
+  position: relative;
+}
+
+nav a {
+  color: #1C1A19;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+.header {
+	overflow: auto;
+	border-bottom-style: solid;
+    /*background-image: url("../images/background.jpeg");*/
+    border: 2px solid black;
+    padding-border: 55px;
+    background: url(mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.footer {
+  font-size: 17px;
+	overflow: auto;
+	border-top-style: groove;
+	position: absolute;
+    left: 0;
+	margin-top: 650px;
+    height: 70px;
+	width: 100%
+bottom: -125px;
+}
+
+#footer-left-content span,
+#footer-left-content img{
+	margin: 4px;
+	float: left;
+}

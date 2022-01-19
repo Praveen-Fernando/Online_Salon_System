@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Bridal Packages</title> 
+    <link rel="stylesheet" type="text/css" href="stylesheet/bridal.css">
+
+
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+</script>
+
+
+ </head>
+
+<body>
+    <header>
+    <span><img style="width: 300px;float: left;padding-left: 30px;padding-top: 20px;" src="img/logo.png" class="logo"></span>
+  <span><font size="10" ><b><u style="margin-left: -175px;"> Beauty Mark </u></b><br><small><small><small></small><small style="margin-left: -65px;">Care About Your Beauty</small></small></small></font></span>
+         
+ <a href="#" id="sign-out"><u>Log Out</u></a></button>
+                 <img id="profile" src="img/avatar.png">
+
+
+
+</header>
+         
+   <hr>  
+
+<div class="header">
+     <nav>
+        <ul>
+          <li><a href="http://localhost/IWT/web%20pages/Praveen/IWT/Home%20page/">Home</a></li>    
+          <li><a href="http://localhost/IWT/web%20pages/Praveen/IWT/Contact%20us.html">Contact Us</a>    
+          </li><li><a href="http://localhost/IWT/web%20pages/Praveen/IWT/Registration.php">Register</a></li>            
+          <li><a href="#">Our Services</a></li>
+          <li style= "#"><a href="http://localhost/IWT/web%20pages/givi/aboutus.html">About us</a></li>
+</ul>
+
+<form name="myForm"
+onsubmit="return validateForm()" method="post" style="position: absolute;left: 1250px;top: 175px;">
+<input type="text" name="fname">
+<input type="submit" value="Search">
+</form>
+        
+      </nav>
+</div>
+<hr>
+
+ <div id="left-pane" class="side-bar">
+        <ul>
+            <li style="margin-top: 20px;" id="categories">Categories</a></li>
+                <li style="margin-top: 18px;"><a href="#">Hair Treatments</a></li>
+                <li style="margin-top: 18px;"><a href="#">Skin Treatments</a></li>
+                <li style="margin-top: 18px;"><a href="#">Body Treatments</a></li>
+                <li style="margin-top: 18px;"><a href="http://localhost/IWT/web%20pages/givi/bridal.html">Bridal packages</a></li>
+                <li><img style="width: 180px; padding-top: 50px;margin-left: 11px;" src="img/cal.png"></li>
+        </ul>
+    </div>
+
+
+<form method="POST" action="bridal.php">
+<div class="bridal">
+    <b style="margin-left: 105px;"> Bridal Packages</b>
+</div>
+ 
+
+ <div class="packageone">
+    <input type="radio" value="PACKAGE A Rs.5000" name="package"><b>PACKAGE A Rs.5000</b>
+ </div>
+
+<div class="packagetwo">
+    <input type="radio" value="PACKAGE B Rs.6000" name="package"><b>PACKAGE B Rs.6000</b>
+ </div>
+
+ <div class="packagethree">
+    <input type="radio" value="PACKAGE C Rs.8000" name="package"><b>PACKAGE C Rs.8000</b>
+</div>
+
+
+<!-- <div>
+<select name="select" style="position: absolute;right: 185px; top: 375px;">
+  <option>Rs.5000</option>
+  <option>Rs.4500</option>
+  <option>Rs.4000</option>
+</select>
+</div>
+
+<div>
+<select name="select" style="position: absolute;right: 555px; top:375px;">
+  <option>Rs.7000</option>
+  <option>Rs.6500</option>
+  <option>Rs.6000</option>
+</select>
+</div>
+
+<div>
+<select name="select" style="position: absolute;left: 360px; top:375px;">
+  <option>Rs.8000</option>
+  <option>Rs.7500</option>
+  <option>Rs.7000</option>
+</select>
+</div> -->
+
+    <div class="pack1"> 
+        <ul>
+        <li>Bridal Style</li>
+        <li style="margin-top: 15px;">Bridal Style Trial</li>
+        <li style="margin-top: 15px;">Bridal Makeup</li>
+        <li style="margin-top: 15px;">Bridal Makeup Trial</li>
+    </ul>
+    </div>
+
+    <div class="pack2">
+        <ul>
+        <li>Bridal Style</li>
+        <li style="margin-top: 15px;">Bridal Style Trial</li>
+        <li style="margin-top: 15px;">Bridal Makeup</li>
+        <li style="margin-top: 15px;">Bridal Makeup Trial</li>
+        <li style="margin-top: 15px;">Spa Manicure</li>
+        <li style="margin-top: 15px;">Spa Pedicure</li>
+        <li style="margin-top: 15px;">Custom Facial</li>
+        <li style="margin-top: 15px;">Eyebrow Arch</li>
+    </ul>
+    </div>
+
+    <div class="pack3">
+        <ul>
+        <li>Bridal Style</li>
+        <li style="margin-top: 15px;">Bridal Style Trial</li>
+        <li style="margin-top: 15px;">Bridal Makeup</li>
+        <li style="margin-top: 15px;">Bridal Makeup Trial</li>
+        <li style="margin-top: 15px;">2 Spa Manicures</li>
+        <li style="margin-top: 15px;">2 Spa Pedicures</li>
+        <li style="margin-top: 15px;">Custom Facial</li>
+        <li style="margin-top: 15px;">2 Eyebrow Shaping</li>
+        <li style="margin-top: 15px;">Mini Facial</li>
+        <li style="margin-top: 15px;">Choice of Hair Treatment</li>
+        <li style="margin-top: 15px;">Honeymoon Travel Size <br>Product Package</li>
+    </ul>
+  <input class="sub1" type="submit" value="Add to cart" name="add">
+  <input class="sub2" type="submit" value="Update cart" name="update">
+
+    </div>
+
+  
+</form>
+
+<footer>
+    <div class="footer">
+      <div style="float: left;" id="footer-left-content">
+        <span style="position:absolute;left:5px;top:9px;">fax: www.BeautyMark.com</span>
+        <br>
+        <span style="position:absolute;left:5px;top:38px;">contact: 507-334-4898</span>
+        <img style="margin-left:270px;margin-top: -6px;"src="img/payment.png" width="200px">
+        
+      </div>
+              <div style="float: right;">
+                  <span style="position:absolute;right: 115px;top: 30px;">follow us on</span>
+        <br>
+        <img style="margin-left:270px;margin-top: 8px;margin-right: 20px;"src="img/social.png" width="80px">
+        </div></div>
+     </footer>
+</body>
+</html>

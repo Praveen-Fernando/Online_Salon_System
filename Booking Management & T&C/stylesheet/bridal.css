@@ -1,0 +1,244 @@
+
+
+p{ 
+    text-align:center;
+    font-size:40px;
+   }
+ 
+h3{
+    font-size:5px;
+  }
+
+
+
+body {
+   margin: 0;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 800;
+   text-align:center;
+   padding-top: 23px;
+   color: white;
+
+background-image:url("../img/background1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+
+.header{
+  color: white;
+}
+
+
+
+#sign-out{
+  float: right; 
+  padding-top: 38px;
+    padding-right: 40px;
+    color: white;
+}
+
+
+
+#profile{
+  float: right;
+  width: 67px;
+  padding-bottom: 5px;
+    margin-top: -39px;
+    margin-right: -71px;
+}
+
+
+.side-bar{
+      float: left;
+      border-right-style: solid;
+      margin-top: -11px;
+      position: absolute;
+      bottom: -390px;
+      top: 221px;
+}
+.side-bar ul{
+    list-style-type: none;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.side-bar li a{
+  text-decoration: none;
+  color: white;
+}
+#categories{
+      text-align: center;
+      border-style: solid;
+      border-width: 2px;
+      text-decoration-style: none;
+      color: white;
+}
+
+
+.bridal{
+  font-size: 40px;
+  margin-top: 18px;
+  color: white;
+}
+
+
+.packageone{
+  position: absolute;
+  left: 323px;
+  top: 330px;
+    font-size: 20px;
+}
+
+.pack1{
+  position:absolute;
+  left:284px;
+  top: 400px;
+  font-size:18.5px;
+  font-family: Comic Sans MS
+}
+
+
+
+
+.packagetwo{
+  position: absolute;
+  right: 525px;
+  top: 330px;
+  font-size: 20px;
+}
+.pack2{
+  position:absolute;
+  top: 400px;
+  right: 510px;
+  font-size:18.5px;
+  font-family: Comic Sans MS
+}
+
+
+
+
+.packagethree{
+  position: absolute;
+  right: 160px;
+  top: 330px;
+  font-size: 20px;
+}
+.pack3{
+  position:absolute;
+  right:125px;
+  top: 400px;
+  font-size:18.5px;
+  font-family: Comic Sans MS
+}
+
+
+.price1{
+  position: absolute;
+  right: -500px;
+}
+
+
+
+.sub1{
+  border: none;
+    color: black;
+    font-family: Times New Roman;
+    padding: 14px 28px;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    position: absolute; 
+    left: -240px;
+    bottom: -180px;
+}
+
+
+.sub2{
+  border: none;
+    color: black;
+    font-family: Times New Roman;
+    padding: 14px 28px;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    position: absolute; 
+    left: 0px;
+    bottom: -180px;
+}
+
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: 253px;
+}
+
+nav li {
+  display: inline-block;
+  padding-right: 70px;
+  padding-top: -5px;
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+.header {
+	overflow: auto;
+	border-bottom-style: solid;
+    background-image: url("../images/background.jpeg");
+    border: 1px white;
+    padding-border: 55px;
+    background: url(mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.footer {
+  font-size: 17px;
+	overflow: auto;
+	border-top-style: groove;
+	position: absolute;
+    left: 0;
+	margin-top: 845px;
+    height: 70px;
+	width: 100%
+}
+
+#footer-left-content span,
+#footer-left-content img{
+	margin: 4px;
+	float: left;
+}

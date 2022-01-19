@@ -1,0 +1,88 @@
+<html>
+<head>
+      <title>Live Art</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="stylesheet.css">
+<script src="formvalid.js"></script>
+
+
+</head>
+<body>
+<header style="color:black;background-color:grey;">
+<img src="logo.jpg" alt="logo Image" id="image">
+<input type="text" placeholder="Search,artists,galleries.." class="search"><br>
+<img src="User.jpg" alt="user" class="user_image" width="50px" height="50px">
+<div class="link">
+<a href="#">Log in</a><br><a href="#">Register</a>
+</div>
+<div class="link_cart">
+<pre>
+<a href="#">Shopping Cart</a>  <a href="#">Add to Cart</a>  <a href="#">$ USD</a>
+</pre>
+</div>
+<h2 class="h2">Live Art</h2>
+<hr id="hr">
+<ul class="nav">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a  href="#artists">Artists</a></li>
+  <li><a href="#formatsandprices">Formats and Prices</a></li>
+  <li><a href="#auctions">Auctions</a></li>
+  <li><a href="#shipping">Shipping</a></li>
+  <li><a href="#contactus">Contact Us</a></li>
+  <li><a href="#feedback">Feedback</a></li>
+</ul>
+<hr id="hr">
+</header>
+<footer class="footer">
+<div class="align_footer">
+<div class="tel">
+<b>Address: 77, Lorenz Road, Col-04</b>
+</div>
+<div class="tel">
+<b>TEL:0112888888 FAX:0112887777</b>
+</div>
+</div>
+<div class="social_medias">
+<a href="https://www.facebook.com/LiveArt" class="fa fa-facebook"></a>
+<a href="https://www.twitter.com/LiveArt" class="fa fa-twitter"></a>
+<a href="https://www.googleplus.com/LiveArt" class="fa fa-google"></a>
+<a href="https://www.linkedin.com/LiveArt" class="fa fa-linkedin"></a>
+<a href="https://www.youtibe.com/LiveArt" class="fa fa-youtube"></a>
+</div>
+</footer>
+
+<h3><b>          CHOOSING A PAYMENT METHOD</h3></b>
+  <p>Pay with:</p>
+<form action="/action_page.php" method="get">
+
+<i class="fa fa-cc-paypal" style="font-size:20px;color:red"></i>
+
+
+ 
+   <input type="checkbox" checked="checked">Paypal<br><br></br>
+
+
+<i class="fa fa-credit-card" style="font-size:20px;color:red"></i>
+ <input type="checkbox">Credit or Debit Card<br></i>
+<div class="icons">
+ <i class="fa fa-cc-amex" style="font-size:20px;color:red"></i>
+<i class="fa fa-cc-mastercard" style="font-size:20px;color:red"></i>
+<i class="fa fa-cc-visa" style="font-size:20px;color:red"></i>
+</div>
+
+<br></br>
+<br></br>
+<p1><b>Payment Details:</b></p1><br>
+
+
+<b><label for="yname">Customer name</label>
+    <input type="tt" id="Customer name" name="Customer name" placeholder="Customer name.."><br>
+<label for="Total Amount">Total Amount</label>
+    <input type="tt" id="Total Amount" name="Total Amount" placeholder="Total Amount" onkeypress="return isNumberKey(event)"/><br></b>
+
+ <center> <input type="submit" value="Edit">  <input type="submit" value="Confirm and Pay"></center>
+
+</form>   
+
+</body>
+</html>

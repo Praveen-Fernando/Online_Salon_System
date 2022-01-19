@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Bridal Packages</title> 
+    <link rel="stylesheet" type="text/css" href="stylesheet/stock.css">
+
+
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+</script>
+
+
+ </head>
+
+<body>
+	<header>
+	<span><img style="width: 300px;float: left;padding-left: 30px;padding-top: 20px;" src="img/logo.png" class="logo"></span>
+  <span><font size="10" ><b><u style="margin-left: -175px;"> Beauty Mark </u></b><br><small><small><small></small><small style="margin-left: -65px;">Care About Your Beauty</small></small></small></font></span>
+         
+ <a href="#" id="sign-out"><u>Sign Out</u></a></button>
+                 <img id="profile" src="img/avatar.png">
+
+</header>
+         
+   <hr>  
+
+<div class="header">
+	 <nav>
+        <ul>
+          <li><a href="http://localhost/IWT/web%20pages/praveen/Home%20page/">Home</a></li>    
+          <li><a href="http://localhost/IWT/web%20pages/praveen/Contact%20us.html">Contact Us</a>    
+          </li><li><a href="http://localhost/IWT/web%20pages/praveen/Registration.php">Register</a></li>            
+          <li><a href="#">Our Services</a></li>
+          <li><a href="http://localhost/IWT/web%20pages/givi/aboutus.html">About Us</a></li>
+</ul>
+
+<form name="myForm" action="/action_page.php"
+onsubmit="return validateForm()" method="post" style="position: absolute;left: 1245px;top: 175px;">
+<input type="text" name="fname">
+<input type="submit" value="Search">
+</form>
+        
+      </nav>
+</div>
+<hr>
+
+ <div id="left-pane" class="side-bar">
+    	<ul>
+    		<li style="margin-top: 20px;" id="categories">Categories</a></li>
+    			<li style="margin-top: 18px;"><a href="#">Hair Treatments</a></li>
+    			<li style="margin-top: 18px;"><a href="#">Skin Treatments</a></li>
+    			<li style="margin-top: 18px;"><a href="#">Body Treatments</a></li>
+    			<li style="margin-top: 18px;"><a href="http://localhost/IWT/web%20pages/givi/bridal.html">Bridal packages</a></li>
+    			<li><img style="width: 180px; padding-top: 50px;margin-left: 11px;" src="img/cal.png"></li>
+    	</ul>
+    </div>
+
+
+
+<div class="stockz">
+	<b style="margin-left: 105px;"> Stock Controlling</b>
+</div><br><br><br>
+ 
+<div class="p1">
+<form method="post" action="stock.php"><center>
+Product ID:<input type="text" name ="id" > <br><br><br>
+Product Name: <input type="text" name="pname"> <br><br><br><br>
+Qunatity: <input type="text" name="qnt"> <br><br><br><br>
+Price:<input type="text" name="price"><br><br><br><br>
+Categories:<br><input type="radio" name="cat" value="Electronic Machines" checked="story" > Electronic Machines<br><br>
+ <input type="radio" name="cat" value=" Cosmetics"> Cosmetics<br><br>
+ <input type="radio" name="cat" value="Hair & Makeup Mannequins"> Hair & Makeup Mannequins<br><br>
+ <input type="radio" name="cat" value="Spa Equipments"> Spa Equipments<br><br>
+ <input type="radio" name="cat" value="Other Tools"> Other Tools<br><br>
+<p>
+<input class="sub1" type="submit" value="Add Items" name ="sub">       
+<input class="sub2" type="submit" value="Delete Items" name ="del">     
+<input class="sub3" type="submit" value="Change Infomation" name ="change"><br><br>
+</p>
+</form>
+
+</div>
+
+
+
+
+
+<footer>
+    <div class="footer">
+      <div style="float: left;" id="footer-left-content">
+        <span style="position:absolute;left:5px;top:9px;">fax: www.BeautyMark.com</span>
+        <br>
+        <span style="position:absolute;left:5px;top:38px;">contact: 507-334-4898</span>
+        <img style="margin-left:270px;margin-top: -6px;"src="img/payment.png" width="200px">
+        
+      </div>
+              <div style="float: right;">
+                  <span style="position:absolute;right: 115px;top: 30px;">follow us on</span>
+        <br>
+        <img style="margin-left:270px;margin-top: 8px;margin-right: 20px;"src="img/social.png" width="80px">
+        </div></div>
+     </footer>
+</body>
+</html>
